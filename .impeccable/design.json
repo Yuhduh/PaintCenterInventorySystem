@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T08:14:15.1434041+08:00",
+  "title": "Design System: Grade A Paint Center",
+  "extensions": {
+    "colorMeta": {
+      "primary-violet": { "role": "primary", "displayName": "Primary Violet", "canonical": "#7c3aed", "tonalRamp": ["#2e1065", "#4c1d95", "#5b21b6", "#6d28d9", "#7c3aed", "#a78bfa", "#ddd6fe", "#f5f3ff"] },
+      "primary-violet-hover": { "role": "primary", "displayName": "Violet Hover", "canonical": "#6d28d9", "tonalRamp": ["#2e1065", "#4c1d95", "#5b21b6", "#6d28d9", "#7c3aed", "#a78bfa", "#ddd6fe", "#f5f3ff"] },
+      "primary-violet-active": { "role": "primary", "displayName": "Violet Active", "canonical": "#5b21b6", "tonalRamp": ["#2e1065", "#4c1d95", "#5b21b6", "#6d28d9", "#7c3aed", "#a78bfa", "#ddd6fe", "#f5f3ff"] },
+      "focus-cyan": { "role": "secondary", "displayName": "Focus Cyan", "canonical": "#0891b2", "tonalRamp": ["#083344", "#164e63", "#155e75", "#0e7490", "#0891b2", "#22d3ee", "#a5f3fc", "#ecfeff"] },
+      "navigation-cyan": { "role": "secondary", "displayName": "Navigation Cyan", "canonical": "#0e7490", "tonalRamp": ["#083344", "#164e63", "#155e75", "#0e7490", "#0891b2", "#22d3ee", "#a5f3fc", "#ecfeff"] },
+      "cyan-wash": { "role": "secondary", "displayName": "Cyan Wash", "canonical": "#ecfeff", "tonalRamp": ["#083344", "#164e63", "#155e75", "#0e7490", "#0891b2", "#22d3ee", "#a5f3fc", "#ecfeff"] },
+      "rail-blue": { "role": "neutral", "displayName": "Rail Blue", "canonical": "#172554", "tonalRamp": ["#172554", "#1e3a8a", "#1d4ed8", "#2563eb", "#3b82f6", "#93c5fd", "#dbeafe", "#eff6ff"] },
+      "rail-blue-hover": { "role": "neutral", "displayName": "Rail Hover Blue", "canonical": "#1e3a8a", "tonalRamp": ["#172554", "#1e3a8a", "#1d4ed8", "#2563eb", "#3b82f6", "#93c5fd", "#dbeafe", "#eff6ff"] },
+      "page-ink": { "role": "neutral", "displayName": "Page Ink", "canonical": "#020617", "tonalRamp": ["#020617", "#0f172a", "#1e293b", "#334155", "#64748b", "#94a3b8", "#e2e8f0", "#f8fafc"] },
+      "heading-ink": { "role": "neutral", "displayName": "Heading Ink", "canonical": "#0f172a", "tonalRamp": ["#020617", "#0f172a", "#1e293b", "#334155", "#64748b", "#94a3b8", "#e2e8f0", "#f8fafc"] },
+      "body-ink": { "role": "neutral", "displayName": "Body Ink", "canonical": "#334155", "tonalRamp": ["#020617", "#0f172a", "#1e293b", "#334155", "#64748b", "#94a3b8", "#e2e8f0", "#f8fafc"] },
+      "muted-ink": { "role": "neutral", "displayName": "Muted Ink", "canonical": "#64748b", "tonalRamp": ["#020617", "#0f172a", "#1e293b", "#334155", "#64748b", "#94a3b8", "#e2e8f0", "#f8fafc"] },
+      "work-canvas": { "role": "neutral", "displayName": "Cyan Work Canvas", "canonical": "#ecfeff", "tonalRamp": ["#083344", "#164e63", "#155e75", "#0e7490", "#22d3ee", "#67e8f9", "#cffafe", "#ecfeff"] },
+      "work-surface": { "role": "neutral", "displayName": "Work Surface", "canonical": "#ffffff", "tonalRamp": ["#0f172a", "#334155", "#64748b", "#94a3b8", "#cbd5e1", "#e2e8f0", "#f8fafc", "#ffffff"] },
+      "hairline": { "role": "neutral", "displayName": "Hairline", "canonical": "#e2e8f0", "tonalRamp": ["#020617", "#0f172a", "#334155", "#64748b", "#94a3b8", "#cbd5e1", "#e2e8f0", "#f8fafc"] },
+      "paint-blue": { "role": "tertiary", "displayName": "Paint Blue", "canonical": "#2563eb", "tonalRamp": ["#172554", "#1e3a8a", "#1d4ed8", "#2563eb", "#3b82f6", "#93c5fd", "#dbeafe", "#eff6ff"] },
+      "paint-cyan": { "role": "tertiary", "displayName": "Paint Cyan", "canonical": "#06b6d4", "tonalRamp": ["#083344", "#164e63", "#155e75", "#0891b2", "#06b6d4", "#67e8f9", "#cffafe", "#ecfeff"] },
+      "paint-violet": { "role": "tertiary", "displayName": "Paint Violet", "canonical": "#7c3aed", "tonalRamp": ["#2e1065", "#4c1d95", "#5b21b6", "#6d28d9", "#7c3aed", "#a78bfa", "#ddd6fe", "#f5f3ff"] },
+      "paint-pink": { "role": "tertiary", "displayName": "Paint Pink", "canonical": "#ec4899", "tonalRamp": ["#500724", "#831843", "#be185d", "#db2777", "#ec4899", "#f9a8d4", "#fce7f3", "#fdf2f8"] },
+      "paint-yellow": { "role": "tertiary", "displayName": "Paint Yellow", "canonical": "#facc15", "tonalRamp": ["#422006", "#713f12", "#a16207", "#ca8a04", "#facc15", "#fde047", "#fef08a", "#fefce8"] },
+      "paint-orange": { "role": "tertiary", "displayName": "Paint Orange", "canonical": "#f97316", "tonalRamp": ["#431407", "#7c2d12", "#c2410c", "#ea580c", "#f97316", "#fdba74", "#ffedd5", "#fff7ed"] },
+      "paint-green": { "role": "tertiary", "displayName": "Paint Green", "canonical": "#22c55e", "tonalRamp": ["#052e16", "#14532d", "#166534", "#16a34a", "#22c55e", "#86efac", "#dcfce7", "#f0fdf4"] },
+      "paint-red": { "role": "tertiary", "displayName": "Paint Red", "canonical": "#ef4444", "tonalRamp": ["#450a0a", "#7f1d1d", "#991b1b", "#dc2626", "#ef4444", "#fca5a5", "#fee2e2", "#fef2f2"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display / Metric", "purpose": "30px desktop page titles and dashboard values." },
+      "headline": { "displayName": "Headline", "purpose": "24px mobile page titles and authored headings." },
+      "title": { "displayName": "Title", "purpose": "20px modal and major section titles." },
+      "body": { "displayName": "Operational Body", "purpose": "14px controls, descriptions, links, and table cells." },
+      "label": { "displayName": "Label", "purpose": "12px metric labels, metadata, chips, and helper text; 10px and 11px are reserved for micro labels and table headers." }
+    },
+    "shadows": [
+      { "name": "surface-lift", "value": "0 18px 45px -32px rgba(15, 23, 42, 0.45)", "purpose": "Standard white work surfaces over cyan-50." },
+      { "name": "panel-lift", "value": "0 18px 45px -34px rgba(15, 23, 42, 0.50)", "purpose": "Dense panels and table containers." },
+      { "name": "metric-lift", "value": "0 18px 42px -32px rgba(15, 23, 42, 0.50)", "purpose": "Dashboard metric tiles." },
+      { "name": "rail-cast", "value": "12px 0 40px -32px rgba(2, 8, 23, 0.90)", "purpose": "Desktop navigation edge." },
+      { "name": "violet-action-lift", "value": "0 10px 22px -14px rgba(109, 40, 217, 0.90)", "purpose": "Primary violet action buttons." },
+      { "name": "modal-lift", "value": "0 32px 80px -36px rgba(2, 8, 23, 0.85)", "purpose": "Confirmation and custom-mix dialogs." }
+    ],
+    "motion": [
+      { "name": "state-fast", "value": "150ms ease-in-out", "purpose": "Small mobile navigation and utility states." },
+      { "name": "state-standard", "value": "200ms ease", "purpose": "Buttons, links, table rows, product cards, and rail width." },
+      { "name": "page-arrive", "value": "320ms cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "One-shot authenticated page entry." },
+      { "name": "modal-enter", "value": "300ms ease-out", "purpose": "Dialog opacity and restrained scale/translation entry." },
+      { "name": "login-card-arrive", "value": "700ms cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "One-shot login card arrival." },
+      { "name": "paint-pour", "value": "3.8s cubic-bezier(0.16, 1, 0.3, 1) both", "purpose": "Login-only solid paint-drip entrance, staggered by up to 0.5s." },
+      { "name": "login-ambient", "value": "6s–19s ease-in-out infinite", "purpose": "Slow login-only blob, droplet, bubble, tool, and swatch motion." },
+      { "name": "reduced-motion", "value": "0.01ms 1 iteration", "purpose": "Stops authored animation and hides falling paint drops when reduced motion is requested." }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "640px" },
+      { "name": "lg", "value": "1024px" },
+      { "name": "xl", "value": "1280px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The dominant authenticated action: solid violet with cyan keyboard focus.",
+      "html": "<button class=\"ds-btn-primary\">Save changes</button>",
+      "css": ".ds-btn-primary{display:inline-flex;min-height:44px;align-items:center;justify-content:center;gap:8px;border:0;border-radius:12px;background:#7c3aed;color:#fff;padding:10px 16px;font:700 14px/1.5 Manrope,ui-sans-serif,system-ui,sans-serif;box-shadow:0 10px 22px -14px rgba(109,40,217,.9);transition:background-color 200ms ease,transform 200ms ease,opacity 200ms ease}.ds-btn-primary:hover{background:#6d28d9}.ds-btn-primary:active{background:#5b21b6;transform:translateY(1px)}.ds-btn-primary:focus-visible{outline:3px solid rgba(6,148,162,.32);outline-offset:3px}.ds-btn-primary:disabled{cursor:not-allowed;opacity:.5}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "A white supporting action with cyan text and an inset cyan boundary.",
+      "html": "<button class=\"ds-btn-secondary\">Reset filters</button>",
+      "css": ".ds-btn-secondary{display:inline-flex;min-height:44px;align-items:center;justify-content:center;gap:8px;border:1px solid #a5f3fc;border-radius:12px;background:#fff;color:#155e75;padding:10px 16px;font:700 14px/1.5 Manrope,ui-sans-serif,system-ui,sans-serif;transition:background-color 200ms ease,color 200ms ease,transform 200ms ease,opacity 200ms ease}.ds-btn-secondary:hover{background:#ecfeff;color:#083344}.ds-btn-secondary:active{transform:translateY(1px)}.ds-btn-secondary:focus-visible{outline:3px solid rgba(6,148,162,.32);outline-offset:3px}.ds-btn-secondary:disabled{cursor:not-allowed;opacity:.5}"
+    },
+    {
+      "name": "Operational Field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "The common text, search, select, and textarea field with cyan focus.",
+      "html": "<label class=\"ds-field-label\" for=\"ds-search\">Search products</label><input class=\"ds-field\" id=\"ds-search\" type=\"search\" placeholder=\"Product name or SKU\">",
+      "css": ".ds-field-label{display:block;margin-bottom:8px;color:#334155;font:600 14px/1.5 Manrope,ui-sans-serif,system-ui,sans-serif}.ds-field{display:block;width:100%;min-height:44px;border:1px solid #cbd5e1;border-radius:12px;background:#fff;color:#0f172a;padding:10px 12px;font:400 14px/1.5 Manrope,ui-sans-serif,system-ui,sans-serif;box-shadow:0 1px 2px rgba(15,23,42,.05);transition:border-color 200ms ease,box-shadow 200ms ease}.ds-field::placeholder{color:#94a3b8}.ds-field:hover{border-color:#94a3b8}.ds-field:focus{border-color:#0891b2;outline:3px solid rgba(6,148,162,.32);outline-offset:3px}.ds-field:disabled{cursor:not-allowed;background:#f8fafc;color:#64748b;opacity:.65}"
+    },
+    {
+      "name": "Authenticated Navigation",
+      "kind": "nav",
+      "refersTo": "navigation-active",
+      "description": "Blue-950 desktop rail with violet active destinations and cyan visible focus.",
+      "html": "<nav class=\"ds-nav\"><a class=\"ds-nav-item\" href=\"#\">Products</a><a class=\"ds-nav-item ds-nav-item-active\" href=\"#\" aria-current=\"page\">Inventory</a><a class=\"ds-nav-item\" href=\"#\">Sales</a></nav>",
+      "css": ".ds-nav{display:grid;gap:4px;width:256px;border-radius:16px;background:#172554;padding:16px}.ds-nav-item{display:flex;min-height:44px;align-items:center;border-radius:12px;color:#dbeafe;padding:8px 12px;text-decoration:none;font:600 14px/1.5 Manrope,ui-sans-serif,system-ui,sans-serif;transition:background-color 200ms ease,color 200ms ease,box-shadow 200ms ease}.ds-nav-item:hover{background:#1e3a8a;color:#fff}.ds-nav-item-active{background:#7c3aed;color:#fff;font-weight:700;box-shadow:0 12px 28px -20px rgba(124,58,237,.95)}.ds-nav-item:focus-visible{outline:3px solid rgba(34,211,238,.5);outline-offset:3px}"
+    },
+    {
+      "name": "Metric Card",
+      "kind": "card",
+      "description": "A solid-color dashboard metric with one paint identity and tabular value.",
+      "html": "<article class=\"ds-metric\"><span class=\"ds-metric-icon\">#</span><span class=\"ds-metric-label\">Active SKUs</span><strong class=\"ds-metric-value\">128</strong></article>",
+      "css": ".ds-metric{position:relative;overflow:hidden;border-radius:16px;background:#fff;padding:20px;color:#0f172a;box-shadow:0 18px 42px -32px rgba(15,23,42,.5)}.ds-metric:after{content:'';position:absolute;right:-20px;top:-20px;width:80px;height:80px;border-radius:9999px;background:#dbeafe}.ds-metric-icon{position:relative;z-index:1;display:grid;width:40px;height:40px;place-items:center;border-radius:12px;background:#2563eb;color:#fff;font:800 16px/1 Manrope,ui-sans-serif,system-ui,sans-serif}.ds-metric-label{position:relative;z-index:1;display:block;margin-top:16px;color:#1d4ed8;font:700 12px/1.25 Manrope,ui-sans-serif,system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase}.ds-metric-value{position:relative;z-index:1;display:block;margin-top:4px;color:#020617;font:800 30px/1.2 Manrope,ui-sans-serif,system-ui,sans-serif;font-variant-numeric:tabular-nums}"
+    },
+    {
+      "name": "Product Card",
+      "kind": "card",
+      "description": "A selectable POS product surface that lifts and changes to a cyan boundary on hover/focus.",
+      "html": "<button class=\"ds-product\"><span><strong>Interior Latex</strong><small>Premium · 1 gal</small></span><b>₱1,250.00</b></button>",
+      "css": ".ds-product{display:flex;width:100%;align-items:flex-start;justify-content:space-between;gap:16px;border:1px solid #e2e8f0;border-radius:16px;background:#fff;color:#0f172a;padding:16px;text-align:left;box-shadow:0 16px 36px -32px rgba(15,23,42,.75);transition:border-color 200ms ease,transform 200ms ease,box-shadow 200ms ease}.ds-product span{display:grid;gap:4px}.ds-product strong,.ds-product b{font:800 14px/1.5 Manrope,ui-sans-serif,system-ui,sans-serif}.ds-product small{color:#64748b;font:400 12px/1.25 Manrope,ui-sans-serif,system-ui,sans-serif}.ds-product:hover{border-color:#22d3ee;transform:translateY(-2px)}.ds-product:active{transform:translateY(0)}.ds-product:focus-visible{outline:3px solid rgba(6,148,162,.32);outline-offset:3px;border-color:#0891b2}"
+    },
+    {
+      "name": "Dense Table",
+      "kind": "custom",
+      "description": "A compact record surface with a solid dark header and cyan row feedback.",
+      "html": "<div class=\"ds-table-wrap\"><table class=\"ds-table\"><thead><tr><th>Product</th><th>SKU</th><th>Stock</th></tr></thead><tbody><tr><td>Interior Latex</td><td>INT-001</td><td>24</td></tr><tr><td>Primer White</td><td>PRM-004</td><td>8</td></tr></tbody></table></div>",
+      "css": ".ds-table-wrap{overflow-x:auto;border-radius:16px;background:#fff;box-shadow:0 18px 45px -34px rgba(15,23,42,.5)}.ds-table{width:100%;min-width:520px;border-collapse:collapse;color:#334155;font-family:Manrope,ui-sans-serif,system-ui,sans-serif}.ds-table th{white-space:nowrap;background:#0f172a;padding:12px 16px;text-align:left;color:#f1f5f9;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}.ds-table td{border-top:1px solid #f1f5f9;padding:12px 16px;font-size:14px}.ds-table tbody tr{transition:background-color 200ms ease}.ds-table tbody tr:hover{background:#ecfeff}.ds-table tbody tr:focus-within{outline:3px solid rgba(6,148,162,.25);outline-offset:-3px}"
+    },
+    {
+      "name": "Confirmation Modal",
+      "kind": "custom",
+      "description": "A consequential-action dialog with explicit tone, focus, cancel, and processing states.",
+      "html": "<div class=\"ds-modal-backdrop\"><section class=\"ds-modal\" role=\"alertdialog\"><span class=\"ds-modal-icon\">!</span><div><h2>Deactivate product?</h2><p>This product will no longer be available for sale.</p><div class=\"ds-modal-actions\"><button class=\"ds-modal-cancel\">Cancel</button><button class=\"ds-modal-confirm\">Deactivate</button></div></div></section></div>",
+      "css": ".ds-modal-backdrop{padding:24px;border-radius:16px;background:rgba(2,6,23,.6)}.ds-modal{display:flex;gap:16px;max-width:448px;border-radius:16px;background:#fff;padding:24px;box-shadow:0 32px 80px -36px rgba(2,8,23,.85)}.ds-modal-icon{display:grid;width:40px;height:40px;flex:0 0 40px;place-items:center;border-radius:9999px;background:#fee2e2;color:#dc2626;font:800 20px/1 Manrope,ui-sans-serif,system-ui,sans-serif}.ds-modal h2{margin:0;color:#020617;font:800 20px/1.4 Manrope,ui-sans-serif,system-ui,sans-serif;letter-spacing:-.025em}.ds-modal p{margin:8px 0 0;color:#475569;font:400 14px/1.5 Manrope,ui-sans-serif,system-ui,sans-serif}.ds-modal-actions{display:flex;justify-content:flex-end;gap:12px;margin-top:24px}.ds-modal-cancel,.ds-modal-confirm{min-height:44px;border-radius:12px;padding:10px 16px;font:700 14px/1.5 Manrope,ui-sans-serif,system-ui,sans-serif}.ds-modal-cancel{border:1px solid #a5f3fc;background:#fff;color:#155e75}.ds-modal-confirm{border:0;background:#dc2626;color:#fff}.ds-modal-cancel:hover{background:#ecfeff}.ds-modal-confirm:hover{background:#ef4444}.ds-modal button:focus-visible{outline:3px solid rgba(6,148,162,.32);outline-offset:3px}.ds-modal button:disabled{cursor:not-allowed;opacity:.6}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Measured Color Studio",
+    "overview": "Grade A Paint Center is a precise operational studio built from solid fields of paint color. A blue-950 rail and near-black page headers give the authenticated shell authority; a cyan-50 canvas keeps dense work bright; violet makes the primary action unmistakable; and cyan preserves the established focus and navigation voice.\n\nPaint character appears as controlled, flat-color marks rather than gradients or decorative texture. Dashboard metrics, topbar dots, page-header circles, the login composition, and carefully chosen states draw from the same eight-color paint set. The result is vivid without weakening daily scanability.",
+    "keyCharacteristics": [
+      "Violet primary actions and active destinations establish one decisive hierarchy.",
+      "Cyan focus, secondary actions, and navigation support preserve operational continuity.",
+      "A blue-950 rail frames a cyan-50 work canvas and white task surfaces.",
+      "Eight solid paint colors carry identity, metrics, status, and authored login art.",
+      "Manrope spans a compact 10–30px operational type scale.",
+      "Corners progress from 6px utility shapes to 16px surfaces; 28px is paint-drip-only.",
+      "Motion is purposeful, reduced-motion-safe, and never paired with gradients."
+    ],
+    "rules": [
+      { "name": "The Violet Leads Rule", "body": "Violet owns the primary action and active destination. Cyan owns focus and support. Never reverse these roles without a product-level decision.", "section": "colors" },
+      { "name": "The Solid Paint Rule", "body": "Every fill is a solid color. Do not introduce gradients, even for login art, metrics, hero headers, overlays, or decorative paint effects.", "section": "colors" },
+      { "name": "The Eight-Paint Rule", "body": "Authored paint color comes from blue, cyan, violet, pink, yellow, orange, green, and red. Tints may support legibility, but new hues must not dilute the set.", "section": "colors" },
+      { "name": "The Operational Scale Rule", "body": "Use only the observed 10, 11, 12, 14, 16, 20, 24, and 30px sizes in authenticated UI. Choose weight before inventing another size.", "section": "typography" },
+      { "name": "The Workbench Rule", "body": "Keep filters, products, cart, totals, and actions in one readable operational sequence. Responsive changes may alter composition, never task order.", "section": "layout" },
+      { "name": "The Directional Depth Rule", "body": "Use one broad shadow to establish hierarchy, then rely on solid color, spacing, and hairlines inside the surface.", "section": "elevation" },
+      { "name": "The Radius Has Meaning Rule", "body": "Use 6/8/12/16px for interface geometry. Use 28px only for paint drips and full rounding only when the element is semantically a dot, chip, or circular mark.", "section": "shapes" },
+      { "name": "The Authored Motion Boundary Rule", "body": "Organic paint motion belongs to login. Authenticated work surfaces use short state and page-entry transitions only.", "section": "components" }
+    ],
+    "dos": [
+      "Do use violet for primary actions and active navigation, with cyan for focus and support.",
+      "Do use only solid fills drawn from the documented palette and paint set.",
+      "Do preserve blue-950 rail, cyan-50 canvas, and white work surfaces across authenticated screens.",
+      "Do use the observed 10/11/12/14/16/20/24/30px type scale and 6/8/12/16px interface radii.",
+      "Do preserve dense tables, explicit overflow, 44px targets, visible focus, and named loading/empty/disabled states.",
+      "Do keep login paint motion separate from authenticated workflows and honor reduced motion."
+    ],
+    "donts": [
+      "Don't introduce gradients, blended color fields, glassy chromatic effects, or gradient-like shadow stacks.",
+      "Don't use cyan as the default primary button or violet as the default focus ring.",
+      "Don't use the 28px paint-drip radius on interface controls or containers.",
+      "Don't make every surface float; nested content uses spacing and hairlines.",
+      "Don't compress operational tables or the POS cart until labels, values, or actions become ambiguous.",
+      "Don't add ambient looping paint motion to authenticated pages."
+    ]
+  }
+}
